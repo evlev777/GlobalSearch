@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+    <input type="text" id="english" placeholder="Type English here..." />
+    <button py-click="validator">Translate</button>
+    <div id="output"></div>
+
+<py-script>
+    {
+    "packages": ["typing", "pymssql", "bs4", "requests"]
+    }
+</py-script>
+
+<script type="py" src="./main.py"></script>
+</body>
+</html>

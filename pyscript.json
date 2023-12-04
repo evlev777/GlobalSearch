@@ -1,0 +1,3 @@
+{
+    "packages": ["typing", "pymssql", "bs4", "requests"]
+}
